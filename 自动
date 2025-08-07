@@ -124,9 +124,6 @@ local function checkWhitelist()
     return true
 end
 
--- 执行白名单检查
-if not checkWhitelist() then
-    return -- 终止脚本执行
 end
 
 local player = game:GetService("Players").LocalPlayer
